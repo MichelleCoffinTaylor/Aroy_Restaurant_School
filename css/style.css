@@ -1,0 +1,132 @@
+/* --- Style Sheet --- */
+
+/* -- Universal Indicator -- */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+body {
+		width: 100%;
+		height: 100%;
+}
+/* --- Classes --- */
+.margin {
+	margin: auto;
+}
+.color {
+	color: #d45b30;
+}
+.decoration {
+	text-decoration: none;
+}
+.float {
+	float: left;
+}
+/* --- Home Page --- */
+.logo {
+	width: 246px;
+	height: 246px;
+	padding-top: 100px;
+}
+form {
+	width: 77%;
+	height: 180px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+input {
+	width: 80%;
+	border: solid .5px #1C1C1C;
+	border-radius: 5px;
+	background-color: lightgrey;
+	text-align: center;
+	padding: 2px;
+	margin: 0 auto;
+}
+.submit {
+	width: 20%;
+	margin-top: 5px;
+	display: block;
+}
+h1 {
+	font-size: .8em;
+	color: #1C1C1C;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+aside {
+	width: 15%;
+	height: 100%;
+	float: left;
+	position: fixed;
+	background-color: #1C1C1C;
+}
+nav {
+	width: 40px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+.nav-logo {
+	width: 50px;
+	height:50px;
+	margin-left: 2px;
+	bottom: 10px;
+	position: fixed;
+}
+i {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+header {
+	width: 85%;
+	height: 88px;
+	float: right;
+	position: fixed;
+}
+#main {
+	width: 85%;
+	height: 100%;
+	float: right;
+	background-color: #d45b30;
+}
+.heading {
+	height: 88px;
+	text-align: center;
+	background-color: #1C1C1C;
+}
+h2 {
+	width: 150px;
+	height: 28px;
+	padding-top: 30px;
+	margin: auto;
+	color: white;
+}
+.menu-option {
+	width: 100%;
+	height: 100px;
+	background-color: lightgrey;
+}
+.menu-option-text {
+	text-decoration: none;
+}
+.option {
+	width: 100%;
+	height: 100px;
+	background-color: lightgrey;
+}
+
+
+/* --- Media Queries for Responsive Design --- */
+
+/* --- Mobile --- */
+
+@media only screen and (min-width: 768px) {
+
+	/* --- Navigation Bar Mobile Size ---*/
+}
+
+/* --- Tablet --- */
